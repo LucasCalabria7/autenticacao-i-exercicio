@@ -20,3 +20,9 @@ export interface UserModel {
     role: USER_ROLES,
     createdAt: string
 }
+
+export interface TokenPayload {
+    id: string,
+		name: string,
+    role: USER_ROLES
+}

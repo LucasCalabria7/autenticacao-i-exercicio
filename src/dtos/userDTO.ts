@@ -7,7 +7,7 @@ export interface GetUsersInput {
 export type GetUsersOutput = UserModel[]
 
 export interface SignupInput {
-    id: unknown,
+    // id: unknown,
     name: unknown,
     email: unknown,
     password: unknown
